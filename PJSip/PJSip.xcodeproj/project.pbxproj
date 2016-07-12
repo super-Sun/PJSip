@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE926871D350A83001B135B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE926861D350A83001B135B /* main.m */; };
+		0DE9268A1D350A83001B135B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE926891D350A83001B135B /* AppDelegate.m */; };
+		0DE926921D350A83001B135B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE926911D350A83001B135B /* Assets.xcassets */; };
+		0DE926951D350A83001B135B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE926931D350A83001B135B /* LaunchScreen.storyboard */; };
+		0DE926A01D350A84001B135B /* PJSipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9269F1D350A84001B135B /* PJSipTests.m */; };
+		0DE926AB1D350A84001B135B /* PJSipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE926AA1D350A84001B135B /* PJSipUITests.m */; };
+		0DE926BB1D350B74001B135B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE926B81D350B74001B135B /* Main.storyboard */; };
+		0DE926BC1D350B74001B135B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE926BA1D350B74001B135B /* ViewController.m */; };
+		0DE926CC1D350C51001B135B /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE926C71D350C51001B135B /* DialViewController.m */; };
+		0DE926CD1D350C51001B135B /* IncomingCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE926C91D350C51001B135B /* IncomingCallViewController.m */; };
+		6F99BFF6C964012F19D77D22 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1A974597776482E21CD598 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DE9269C1D350A84001B135B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DE9267A1D350A83001B135B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DE926811D350A83001B135B;
+			remoteInfo = PJSip;
+		};
+		0DE926A71D350A84001B135B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DE9267A1D350A83001B135B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DE926811D350A83001B135B;
+			remoteInfo = PJSip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE926821D350A83001B135B /* PJSip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJSip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE926861D350A83001B135B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DE926881D350A83001B135B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DE926891D350A83001B135B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DE926911D350A83001B135B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DE926941D350A83001B135B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DE926961D350A83001B135B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE9269B1D350A84001B135B /* PJSipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJSipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE9269F1D350A84001B135B /* PJSipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSipTests.m; sourceTree = "<group>"; };
+		0DE926A11D350A84001B135B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE926A61D350A84001B135B /* PJSipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJSipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE926AA1D350A84001B135B /* PJSipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSipUITests.m; sourceTree = "<group>"; };
+		0DE926AC1D350A84001B135B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE926B81D350B74001B135B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0DE926B91D350B74001B135B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DE926BA1D350B74001B135B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DE926C61D350C51001B135B /* DialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		0DE926C71D350C51001B135B /* DialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
+		0DE926C81D350C51001B135B /* IncomingCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomingCallViewController.h; sourceTree = "<group>"; };
+		0DE926C91D350C51001B135B /* IncomingCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomingCallViewController.m; sourceTree = "<group>"; };
+		1C5AF9B4A985ABE75865C16A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7588AFFAC8651832E84C0FC1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8C1A974597776482E21CD598 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE9267F1D350A83001B135B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F99BFF6C964012F19D77D22 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE926981D350A84001B135B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE926A31D350A84001B135B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE926791D350A83001B135B = {
+			isa = PBXGroup;
+			children = (
+				0DE926841D350A83001B135B /* PJSip */,
+				0DE9269E1D350A84001B135B /* PJSipTests */,
+				0DE926A91D350A84001B135B /* PJSipUITests */,
+				0DE926831D350A83001B135B /* Products */,
+				B147C371C023BBBEF974B4D0 /* Pods */,
+				C82DC1B3C9415AE0C9880ADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE926831D350A83001B135B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE926821D350A83001B135B /* PJSip.app */,
+				0DE9269B1D350A84001B135B /* PJSipTests.xctest */,
+				0DE926A61D350A84001B135B /* PJSipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE926841D350A83001B135B /* PJSip */ = {
+			isa = PBXGroup;
+			children = (
+				0DE926881D350A83001B135B /* AppDelegate.h */,
+				0DE926891D350A83001B135B /* AppDelegate.m */,
+				0DE926B91D350B74001B135B /* ViewController.h */,
+				0DE926BA1D350B74001B135B /* ViewController.m */,
+				0DE926C61D350C51001B135B /* DialViewController.h */,
+				0DE926C71D350C51001B135B /* DialViewController.m */,
+				0DE926C81D350C51001B135B /* IncomingCallViewController.h */,
+				0DE926C91D350C51001B135B /* IncomingCallViewController.m */,
+				0DE926911D350A83001B135B /* Assets.xcassets */,
+				0DE926931D350A83001B135B /* LaunchScreen.storyboard */,
+				0DE926B81D350B74001B135B /* Main.storyboard */,
+				0DE926961D350A83001B135B /* Info.plist */,
+				0DE926851D350A83001B135B /* Supporting Files */,
+			);
+			path = PJSip;
+			sourceTree = "<group>";
+		};
+		0DE926851D350A83001B135B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DE926861D350A83001B135B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DE9269E1D350A84001B135B /* PJSipTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE9269F1D350A84001B135B /* PJSipTests.m */,
+				0DE926A11D350A84001B135B /* Info.plist */,
+			);
+			path = PJSipTests;
+			sourceTree = "<group>";
+		};
+		0DE926A91D350A84001B135B /* PJSipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE926AA1D350A84001B135B /* PJSipUITests.m */,
+				0DE926AC1D350A84001B135B /* Info.plist */,
+			);
+			path = PJSipUITests;
+			sourceTree = "<group>";
+		};
+		B147C371C023BBBEF974B4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C5AF9B4A985ABE75865C16A /* Pods.debug.xcconfig */,
+				7588AFFAC8651832E84C0FC1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C82DC1B3C9415AE0C9880ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C1A974597776482E21CD598 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DE926811D350A83001B135B /* PJSip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE926AF1D350A84001B135B /* Build configuration list for PBXNativeTarget "PJSip" */;
+			buildPhases = (
+				CF94803726230495F9AB1319 /* Check Pods Manifest.lock */,
+				0DE9267E1D350A83001B135B /* Sources */,
+				0DE9267F1D350A83001B135B /* Frameworks */,
+				0DE926801D350A83001B135B /* Resources */,
+				A3F3C64F73BB74EC707F2B20 /* Embed Pods Frameworks */,
+				63BBA56DE2C30ECC15CFFF57 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJSip;
+			productName = PJSip;
+			productReference = 0DE926821D350A83001B135B /* PJSip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DE9269A1D350A84001B135B /* PJSipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE926B21D350A84001B135B /* Build configuration list for PBXNativeTarget "PJSipTests" */;
+			buildPhases = (
+				0DE926971D350A84001B135B /* Sources */,
+				0DE926981D350A84001B135B /* Frameworks */,
+				0DE926991D350A84001B135B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE9269D1D350A84001B135B /* PBXTargetDependency */,
+			);
+			name = PJSipTests;
+			productName = PJSipTests;
+			productReference = 0DE9269B1D350A84001B135B /* PJSipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DE926A51D350A84001B135B /* PJSipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE926B51D350A84001B135B /* Build configuration list for PBXNativeTarget "PJSipUITests" */;
+			buildPhases = (
+				0DE926A21D350A84001B135B /* Sources */,
+				0DE926A31D350A84001B135B /* Frameworks */,
+				0DE926A41D350A84001B135B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE926A81D350A84001B135B /* PBXTargetDependency */,
+			);
+			name = PJSipUITests;
+			productName = PJSipUITests;
+			productReference = 0DE926A61D350A84001B135B /* PJSipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DE9267A1D350A83001B135B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = hador;
+				TargetAttributes = {
+					0DE926811D350A83001B135B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					0DE9269A1D350A84001B135B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0DE926811D350A83001B135B;
+					};
+					0DE926A51D350A84001B135B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0DE926811D350A83001B135B;
+					};
+				};
+			};
+			buildConfigurationList = 0DE9267D1D350A83001B135B /* Build configuration list for PBXProject "PJSip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DE926791D350A83001B135B;
+			productRefGroup = 0DE926831D350A83001B135B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE926811D350A83001B135B /* PJSip */,
+				0DE9269A1D350A84001B135B /* PJSipTests */,
+				0DE926A51D350A84001B135B /* PJSipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE926801D350A83001B135B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE926BB1D350B74001B135B /* Main.storyboard in Resources */,
+				0DE926951D350A83001B135B /* LaunchScreen.storyboard in Resources */,
+				0DE926921D350A83001B135B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE926991D350A84001B135B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE926A41D350A84001B135B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63BBA56DE2C30ECC15CFFF57 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F3C64F73BB74EC707F2B20 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF94803726230495F9AB1319 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE9267E1D350A83001B135B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE926CC1D350C51001B135B /* DialViewController.m in Sources */,
+				0DE926BC1D350B74001B135B /* ViewController.m in Sources */,
+				0DE926CD1D350C51001B135B /* IncomingCallViewController.m in Sources */,
+				0DE9268A1D350A83001B135B /* AppDelegate.m in Sources */,
+				0DE926871D350A83001B135B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE926971D350A84001B135B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE926A01D350A84001B135B /* PJSipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE926A21D350A84001B135B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE926AB1D350A84001B135B /* PJSipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DE9269D1D350A84001B135B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DE926811D350A83001B135B /* PJSip */;
+			targetProxy = 0DE9269C1D350A84001B135B /* PBXContainerItemProxy */;
+		};
+		0DE926A81D350A84001B135B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DE926811D350A83001B135B /* PJSip */;
+			targetProxy = 0DE926A71D350A84001B135B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DE926931D350A83001B135B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE926941D350A83001B135B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DE926AD1D350A84001B135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DE926AE1D350A84001B135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DE926B01D350A84001B135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5AF9B4A985ABE75865C16A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJSip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hador.developer.PJSip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DE926B11D350A84001B135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7588AFFAC8651832E84C0FC1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJSip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hador.developer.PJSip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DE926B31D350A84001B135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PJSipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hador.developer.PJSipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJSip.app/PJSip";
+			};
+			name = Debug;
+		};
+		0DE926B41D350A84001B135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PJSipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hador.developer.PJSipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJSip.app/PJSip";
+			};
+			name = Release;
+		};
+		0DE926B61D350A84001B135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PJSipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hador.developer.PJSipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PJSip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0DE926B71D350A84001B135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PJSipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hador.developer.PJSipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PJSip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE9267D1D350A83001B135B /* Build configuration list for PBXProject "PJSip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE926AD1D350A84001B135B /* Debug */,
+				0DE926AE1D350A84001B135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE926AF1D350A84001B135B /* Build configuration list for PBXNativeTarget "PJSip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE926B01D350A84001B135B /* Debug */,
+				0DE926B11D350A84001B135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE926B21D350A84001B135B /* Build configuration list for PBXNativeTarget "PJSipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE926B31D350A84001B135B /* Debug */,
+				0DE926B41D350A84001B135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE926B51D350A84001B135B /* Build configuration list for PBXNativeTarget "PJSipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE926B61D350A84001B135B /* Debug */,
+				0DE926B71D350A84001B135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DE9267A1D350A83001B135B /* Project object */;
+}
